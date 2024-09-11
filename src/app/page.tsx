@@ -40,7 +40,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex justify-center h-screen items-center">
+    <main className="flex justify-center h-screen items-center pb-2">
       <div>
         <div>
           <div ref={outputRef} className="bg-white p-4 leading-none text-justify text-last-justify max-w-[350px] h-[350px] inline-block break-words text-black blur-[2px] font-medium font-['Archivo_Narrow',_'Arial_Narrow',_sans-serif]">
@@ -56,7 +56,7 @@ export default function Home() {
             <span className="text-red-500 mt-2">{error}</span>
           </div>
         </div>
-        <div className="flex justify-center text-center">
+        <div className="flex justify-center text-center text-sm">
           <footer className="mt-20 w-72 sm:w-96">
             <span>
               &copy; {new Date().getFullYear()} <a href="https://jstnlt.my.id" target="_blank" className="underline cursor-pointer">JstnLT</a>.
