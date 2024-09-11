@@ -50,14 +50,14 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-60 sm:w-96 mt-20">
+          <div className="w-72 sm:w-96 mt-20">
             <Input placeholder="bratbretbrot" defaultValue={val} onChange={(x) => setVal(x.currentTarget.value)} />
             <Button className="w-full mt-2" onClick={convertToImage}>Download Image</Button>
             <span className="text-red-500 mt-2">{error}</span>
           </div>
         </div>
         <div className="flex justify-center text-center">
-          <footer className="mt-20 w-60 sm:w-96">
+          <footer className="mt-20 w-72 sm:w-96">
             <span>
               &copy; {new Date().getFullYear()} <a href="https://jstnlt.my.id" target="_blank" className="underline cursor-pointer">JstnLT</a>.
               Resources provided by <a href="https://lumidex.id" target="_blank" className="underline cursor-pointer">Lumidex</a>.  
