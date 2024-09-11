@@ -56,6 +56,12 @@ export default function Home() {
             <span className="text-red-500 mt-2">{error}</span>
           </div>
         </div>
+        <footer className="mt-20 text-center w-60 sm:w-96">
+          <span>
+            &copy; {new Date().getFullYear()} <a href="https://jstnlt.my.id" target="_blank" className="underline cursor-pointer">JstnLT</a>.
+            Resources provided by <a href="https://lumidex.id" target="_blank" className="underline cursor-pointer">Lumidex</a>.  
+          </span>
+        </footer>
       </div>
     </main>
   );
