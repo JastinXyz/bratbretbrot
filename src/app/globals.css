@@ -5,3 +5,23 @@
 html {
     font-family: 'Poppins', sans-serif;
 }
+
+img.appleemoji {
+  display: inline-block;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  width: .9em;
+  height: .9em;
+}
+  
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
+}
+
+@layer utilities {
+  .text-last-justify {
+    text-align-last: justify;
+  }
+}
