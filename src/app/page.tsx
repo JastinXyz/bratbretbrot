@@ -57,10 +57,13 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center text-center text-sm">
-          <footer className="mt-20 w-72 sm:w-96">
+          <footer className="mt-20 w-72 sm:w-96 flex flex-col">
             <span>
               &copy; {new Date().getFullYear()} <a href="https://jstnlt.my.id" target="_blank" className="underline cursor-pointer">JstnLT</a>.
               Resources provided by <a href="https://lumidex.id" target="_blank" className="underline cursor-pointer">Lumidex</a>.  
+            </span>
+            <span>
+              This project is <a href="https://github.com/JastinXyz/bratbretbrot" target="_blank" className="underline cursor-pointer">open source</a> at Github.
             </span>
           </footer>
         </div>
