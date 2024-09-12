@@ -44,7 +44,7 @@ export default function Home() {
       <div>
         <div>
           <div ref={outputRef} className="bg-white p-4 leading-none text-justify text-last-justify max-w-[350px] h-[350px] inline-block break-words text-black blur-[2px] font-medium font-['Archivo_Narrow',_'Arial_Narrow',_sans-serif]">
-            <AutoTextSize mode="box" maxFontSizePx={170} className="blur-[2px]">
+            <AutoTextSize mode="box" maxFontSizePx={170} className="blur-[1px]">
                 {parseEmoji(val)}
             </AutoTextSize>
           </div>
